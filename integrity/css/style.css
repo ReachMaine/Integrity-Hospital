@@ -1,0 +1,92 @@
+/*
+Theme Name: Integrity Hospital
+Description: Child theme for Avada theme
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+/* ---------- header ------------- */
+#side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a {
+  font-family: "Times New Roman", Times, serif; }
+  #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a .title_top {
+    font-size: 44px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 44px; }
+  #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a .title_bottom {
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-variant: small-caps;
+    line-height: 32px; }
+#side-header .side-header-wrapper h3.fusion-header-tagline {
+  background-image: url("http://www.integrityhospital.com/wp-content/uploads/medical_logo_blue_small.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 27px;
+  color: #F5F5F5;
+  line-height: 22px;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 3px #1F1C1C; }
+#side-header .side-header-wrapper .fusion-main-menu, #side-header .side-header-wrapper .side-header-wrapper {
+  background-color: #4b6f9c; }
+#side-header .side-header-wrapper .fusion-main-menu > ul > li.current-menu-item > a {
+  color: #00050E; }
+#side-header .side-header-wrapper .fusion-main-menu > ul > li.fusion-main-menu-search {
+  color: #000000; }
+#side-header .side-header-background {
+  background-color: #4b6f9c; }
+
+/* ---------- menu ------------- */
+/* ---------- content ------------- */
+.fusion-page-title-bar .fusion-page-title-row .fusion-page-title-wrapper .reach-page-title-logo {
+  float: left;
+  padding-right: 20px; }
+.fusion-page-title-bar .fusion-page-title-row .fusion-page-title-wrapper .fusion-page-title-captions h1 {
+  color: #3e5981; }
+
+/* ---------- sidebar/widgets ------------- */
+/* ---------- footer ------------- */
+/* ---------- media ------------- */
+/* ===================================================== */
+/* Media Queries --------------------------------------- */
+/* ===================================================== */
+/* Avada breakpoints */
+/* 
+ * (max-width: 800px)  -  for rev slider
+ * (max-width: 640px)
+ * (min-width: 768px)
+*/
+/* mobile */
+@media only screen and (max-width: 800px) {
+  #side-header {
+    background-color: #4b6f9c !important; }
+    #side-header .side-header-wrapper .side-header-content {
+      width: 100%; }
+      #side-header .side-header-wrapper .side-header-content .fusion-logo-link img {
+        position: absolute;
+        right: 0px;
+        height: 170px; }
+    #side-header .side-header-wrapper .fusion-logo-menu-left .fusion-mobile-menu-icons {
+      float: left !important;
+      padding-left: 10px;
+      padding-bottom: 10px; } }
+@media only screen and (min-width: 801px) {
+  #side-header .side-header-wrapper .side-header-content .fusion-logo-link {
+    position: absolute;
+    top: 172px;
+    right: 0px;
+    z-index: 300; }
+  #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper {
+    margin-left: -20px; }
+    #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper .title_top {
+      margin-left: -32px; } }
+/* Foundation Block Grids for above small breakpoint */
+/* Medium Displays: 768px - 1279px */
+/* Large Displays: 1280px - 1440px */
+/* X-Large Displays: 1400px and up */

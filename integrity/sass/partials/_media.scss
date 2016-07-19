@@ -1,0 +1,88 @@
+
+/* ===================================================== */
+/* Media Queries --------------------------------------- */
+/* ===================================================== */
+/* Avada breakpoints */
+/* 
+ * (max-width: 800px)  -  for rev slider
+ * (max-width: 640px)
+ * (min-width: 768px)
+*/ 
+
+/* mobile */
+@media only screen and (max-width: 800px) { // point that left sidehead breaks for menu
+	#side-header {
+		background-color: $sidebar-header-color!important;
+		.side-header-wrapper {
+			.side-header-content {
+				width: 100%;
+				.fusion-logo-link {
+					img {
+						position: absolute;
+						right: 0px;
+						height: 170px;
+					}
+					//width: 40px;
+					//float: left;
+				}
+				.reach_site_title_wrapper {
+					.reach_site_title {
+						.title_top, .title_bottom {
+							//color: #3E5981;
+						}
+					}
+				}
+			}
+			.fusion-logo-menu-left .fusion-mobile-menu-icons {
+				float: left!important;
+				padding-left: 10px;
+				padding-bottom: 10px;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 801px) { // before break;
+	#side-header .side-header-wrapper {
+		.side-header-content {
+			.fusion-logo-link {
+				position: absolute;
+				//top:180px;
+				top: 172px;
+				right: 0px;
+				z-index: 300;
+				img {
+					//height: 300px;
+				}
+			}
+			.reach_site_title_wrapper {
+				margin-left: -20px;
+				.title_top {
+					//margin-left: -30px;
+					margin-left: -32px;
+				}
+			}
+		}
+		
+	}
+}
+/* Foundation Block Grids for above small breakpoint */
+@media only screen and (min-width: 48em) {
+}
+
+@media only screen and (max-width: 48em) { 
+}
+
+/* Medium Displays: 768px - 1279px */
+@media only screen and (min-width: 48em) {
+}
+/* Large Displays: 1280px - 1440px */
+@media only screen and (min-width: 80em) {
+}
+
+/* X-Large Displays: 1400px and up */
+@media only screen and (min-width: 90em) {
+	}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+	}
+

@@ -1,0 +1,109 @@
+/*
+Theme Name: Integrity Hospital
+Description: Child theme for Avada theme
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+@import "partials/settings";
+/* ---------- header ------------- */
+// ********** side header ***********
+#side-header {
+	.side-header-wrapper {
+		.side-header-content {
+			.fusion-logo-link {
+				//width: 40px;
+				//float: left;
+				// moved to media....
+			}
+			.reach_site_title_wrapper {
+				a {
+					font-family: "Times New Roman", Times, serif;
+					
+					.title_top {
+						//font-weight: 400; 
+						//font-size: 40px;
+						//letter-spacing: 6px;
+						font-size: 44px;
+						color: #ffffff;
+						text-transform: uppercase;
+						letter-spacing: 2px;
+						line-height: 44px;
+					}
+					.title_bottom {
+						font-weight: 200;
+						color: #ffffff;
+						font-size: 40px;
+						letter-spacing: 6px;
+						font-variant: small-caps;
+						line-height: 32px;
+					}
+				}
+			}
+		}
+		h3.fusion-header-tagline {
+			background-image: url("http://www.integrityhospital.com/wp-content/uploads/medical_logo_blue_small.png");
+			background-repeat: no-repeat;
+		    background-position: center center;
+		    padding-bottom: 27px;
+		    color: #F5F5F5;
+		    line-height: 22px;
+		    padding-top: 20px;
+		    text-align: center;
+		    text-shadow: 2px 2px 3px #1F1C1C;
+		}
+		// main menu....
+		.fusion-main-menu, .side-header-wrapper {
+			background-color: $sidebar-header-color;
+		}
+		.fusion-main-menu > ul > li > a:hover{ // hover color in main menu
+			//color: $integrity-ltblue; // set in theme options
+		}
+		.fusion-main-menu > ul > li.current-menu-item > a { // current item in main menu
+			color: #00050E;
+		}
+		.fusion-main-menu > ul > li.fusion-main-menu-search {
+			color: #000000;
+		}
+	} // wrapper
+	.side-header-background {
+		background-color: $sidebar-header-color;
+	}
+}
+
+
+/* ---------- menu ------------- */
+// main menu inside header wrapper (above)
+
+/* ---------- content ------------- */
+.fusion-page-title-bar .fusion-page-title-row  {
+	.fusion-page-title-wrapper:before {
+		//content: "123";
+	}
+	.fusion-page-title-wrapper {
+		.reach-page-title-logo {
+			float: left;
+			padding-right: 20px;
+		}
+		.fusion-page-title-captions {
+			h1 {
+				color: $integrity-primary;
+			}
+		}
+	}
+}
+#content {
+	.post-content h1 {
+		//font-weight: bold;
+	}	
+}
+/* ---------- sidebar/widgets ------------- */
+
+/* ---------- footer ------------- */
+.fusion-footer {
+	.fusion-footer-widget-area {
+		//background-color: $footer-background-color;
+	}
+}
+/* ---------- media ------------- */
+@import "partials/media";

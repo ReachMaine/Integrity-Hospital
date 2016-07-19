@@ -1,0 +1,110 @@
+/*
+Theme Name: Integrity Hospital
+Description: Child theme for Avada theme
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+@import "partials/settings";
+/* ---------- header ------------- */
+
+.fusion-header {
+	.fusion-logo {
+
+		// header display 
+		//display: block;
+		.fusion-logo-link {
+			display : none;
+			visibility: hidden;
+		}
+
+		.fusion-logo-link,
+		.reach_site_title_wrapper { // both
+			float: left;
+		}
+		.fusion-header-content-3-wrapper {
+			// float: right;
+		}
+
+		.reach_site_title_wrapper {
+			a {
+				font-family: "Times New Roman", Times, serif;
+				font-weight: 200;
+				.title_top {
+					font-size: 68px;
+					color: $sitetitle-primary;
+					text-transform: uppercase;
+					letter-spacing: 8px;
+					line-height: 50px;
+				}
+				.title_bottom {
+					color: $sitetitle-secondary;
+					font-size: 40px;
+					letter-spacing: 6px;
+					font-variant: small-caps;
+				}
+			}
+			
+
+		}
+
+
+	}
+	
+}  // end fusion header
+// ********** side header ***********
+#side-header .side-header-wrapper {
+	.side-header-content {
+		.fusion-logo-link {
+			//width: 40px;
+			//float: left;
+		}
+		.reach_site_title_wrapper {
+			a {
+				font-family: "Times New Roman", Times, serif;
+				
+				.title_top {
+					font-weight: 400;
+					font-size: 40px;
+					color: $sitetitle-primary;
+					text-transform: uppercase;
+					letter-spacing: 6px;
+					line-height: 50px;
+				}
+				.title_bottom {
+					font-weight: 200;
+					color: $sitetitle-secondary;
+					font-size: 40px;
+					letter-spacing: 6px;
+					font-variant: small-caps;
+					line-height: 35px;
+				}
+			}
+		}
+	}
+	
+}
+/* ---------- sidebar/widgets ------------- */
+/* ---------- content ------------- */
+.fusion-page-title-bar .fusion-page-title-row  {
+	.fusion-page-title-wrapper:before {
+		//content: "123";
+	}
+	.fusion-page-title-wrapper {
+		.reach-page-title-logo {
+			float: left;
+			padding-right: 20px;
+		}
+		.fusion-page-title-captions {
+			h1 {
+				color: $integrity-primary;
+			}
+		}
+	}
+
+
+}
+/* ---------- footer ------------- */
+
+/* ---------- media ------------- */
+@import "partials/media";
