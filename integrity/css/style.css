@@ -8,21 +8,23 @@ Text Domain:  Avada
 /* Colors ---------------------------------------------- */
 /* Typography ------------------------------------------ */
 /* ---------- header ------------- */
-#side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a {
-  font-family: "Times New Roman", Times, serif; }
-  #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a .title_top {
-    font-size: 44px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 44px; }
-  #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a .title_bottom {
-    font-weight: 200;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 6px;
-    font-variant: small-caps;
-    line-height: 32px; }
+#side-header .side-header-wrapper .side-header-content {
+  padding-right: 0px; }
+  #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a {
+    font-family: "Times New Roman", Times, serif; }
+    #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a .title_top {
+      font-size: 44px;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 44px; }
+    #side-header .side-header-wrapper .side-header-content .reach_site_title_wrapper a .title_bottom {
+      font-weight: 200;
+      color: #ffffff;
+      font-size: 40px;
+      letter-spacing: 6px;
+      font-variant: small-caps;
+      line-height: 32px; }
 #side-header .side-header-wrapper h3.fusion-header-tagline {
   background-image: url("http://www.integrityhospital.com/wp-content/uploads/medical_logo_blue_small.png");
   background-repeat: no-repeat;
@@ -48,7 +50,7 @@ Text Domain:  Avada
   float: left;
   padding-right: 20px; }
 .fusion-page-title-bar .fusion-page-title-row .fusion-page-title-wrapper .fusion-page-title-captions h1 {
-  color: #3e5981; }
+  color: #3E5981; }
 
 /* ---------- sidebar/widgets ------------- */
 /* ---------- footer ------------- */

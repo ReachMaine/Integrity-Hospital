@@ -11,6 +11,7 @@ Text Domain:  Avada
 #side-header {
 	.side-header-wrapper {
 		.side-header-content {
+			padding-right: 0px; // zig Mar 2022
 			.fusion-logo-link {
 				//width: 40px;
 				//float: left;
@@ -19,9 +20,9 @@ Text Domain:  Avada
 			.reach_site_title_wrapper {
 				a {
 					font-family: "Times New Roman", Times, serif;
-					
+
 					.title_top {
-						//font-weight: 400; 
+						//font-weight: 400;
 						//font-size: 40px;
 						//letter-spacing: 6px;
 						font-size: 44px;
@@ -95,7 +96,7 @@ Text Domain:  Avada
 #content {
 	.post-content h1 {
 		//font-weight: bold;
-	}	
+	}
 }
 /* ---------- sidebar/widgets ------------- */
 
